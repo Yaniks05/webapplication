@@ -24,3 +24,9 @@ class LeafletMap {
             ${menuHtml}
             <div id="price-display" style="margin-top: 10px; font-weight: bold;"></div>
         `;
+        marker.bindPopup(popupContent);
+
+        marker.on('popupopen', function () {
+            const menuItems = marker.getPopup().getContent().querySelectorAll('.menu-list li');
+            const priceDisplay = marker.getPopup().getContent().querySelector('#price-display');
+
