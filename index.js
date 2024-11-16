@@ -9,3 +9,10 @@ class LeafletMap {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(this.map);
     }
+    addMarker(lat, lng, name, menuItems) {
+        const marker = L.marker([lat, lng]).addTo(this.map);
+
+        let menuHtml = "<ul class='menu-list'>";
+        menuItems.forEach(item => {
+            menuHtml += `<li data-item="${item.name}" data-price="${item.price}">${item.name}</li>`;
+        });
