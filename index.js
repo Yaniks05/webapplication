@@ -50,5 +50,10 @@ class LeafletMap {
             .catch(error => console.error('Error loading markers:', error));
     }
 }
+const myMap = new LeafletMap('map', [8.360004, 124.868419], 18);
+
+
+myMap.loadMarkersFromJson('index.json');
+
 
 
