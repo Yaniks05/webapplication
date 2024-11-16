@@ -29,4 +29,14 @@ class LeafletMap {
         marker.on('popupopen', function () {
             const menuItems = marker.getPopup().getContent().querySelectorAll('.menu-list li');
             const priceDisplay = marker.getPopup().getContent().querySelector('#price-display');
+            menuItems.forEach(item => {
+                item.addEventListener('click', function () {
+                    const itemName = item.getAttribute('data-item');
+                    const itemPrice = item.getAttribute('data-price');
+                  
+                    priceDisplay.innerHTML = `${itemName} costs ${itemPrice}`;
+                });
+            });
+        });
+    }
 
