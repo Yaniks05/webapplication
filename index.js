@@ -39,4 +39,16 @@ class LeafletMap {
             });
         });
     }
+    loadMarkersFromJson(url) {
+        fetch(url)
+            .then(response => response.json())
+            .then(data => {
+                data.forEach(marker => {
+                    this.addMarker(marker.latitude, marker.longitude, marker.name, marker.menu);
+                });
+            })
+            .catch(error => console.error('Error loading markers:', error));
+    }
+}
+
 
