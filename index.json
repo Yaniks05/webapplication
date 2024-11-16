@@ -19,3 +19,14 @@
             { "name": "Chupagiti 110" }
         ]
     },
+    {
+        "name": "Heavens Big Deal Pizza House",
+        "latitude": 8.365834,
+        "longitude": 124.866211,
+        "menu": [
+            { "name": "Lasagna 250" },
+            { "name": "Lubotacia 200" },
+            { "name": "Burger 120" }
+        ]
+    }
+]
