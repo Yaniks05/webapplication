@@ -4,9 +4,9 @@
         "latitude": 8.366513,
         "longitude": 124.861640,
         "menu": [
-            { "name": "Pares Overlord 100" },
-            { "name": "Fried Fish 150" },
-            { "name": "Adobong Manok 120" }
+            { "name": "Pares Overlord 40pesos" },
+            { "name": "Fried Fish 35pesos" },
+            { "name": "Adobong Manok 50pesos" }
         ]
     },
     {
@@ -14,19 +14,29 @@
         "latitude": 8.365993,
         "longitude": 124.864442,
         "menu": [
-            { "name": "Sinigang Bakla 80" },
-            { "name": "Pritong Manok 90" },
-            { "name": "Chupagiti 110" }
+            { "name": "Sinigang isda 35pesos" },
+            { "name": "Pritong Manok 40pesos" },
+            { "name": "kaldereta 60pesos" }
         ]
     },
     {
-        "name": "Heavens Big Deal Pizza House",
-        "latitude": 8.365834,
-        "longitude": 124.866211,
+        "name": "4J Restaurant",
+        "latitude": 8.368211,
+        "longitude": 124.860900,
         "menu": [
-            { "name": "Lasagna 250" },
-            { "name": "Lubotacia 200" },
-            { "name": "Burger 120" }
+            { "name": "tortang talong 20pesos" },
+            { "name": "humba 40pesos" },
+            { "name": "Fried Fish 35pesos" }
+        ]
+    },
+    {
+        "name": "4J Restaurant",
+        "latitude": 8.368684,
+        "longitude":  124.867955,
+        "menu":[
+            { "name": "lumpia 15pesos" },
+            { "name": "bicol express 40pesos" },
+            { "name": "adobong atay 40pesos" }
         ]
     }
 ]
