@@ -14,9 +14,9 @@
         "latitude": 8.365993,
         "longitude": 124.864442,
         "menu": [
-            { "name": "Sinigang Bakla 80" },
+            { "name": "Sinigang bangus 80" },
             { "name": "Pritong Manok 90" },
-            { "name": "Chupagiti 110" }
+            { "name": "crispy pata 110" }
         ]
     },
     {
@@ -24,8 +24,8 @@
         "latitude": 8.365834,
         "longitude": 124.866211,
         "menu": [
-            { "name": "Lasagna 250" },
-            { "name": "Lubotacia 200" },
+            { "name": "whole fried chiken250" },
+            { "name": " paper roni 200" },
             { "name": "Burger 120" }
         ]
     }
