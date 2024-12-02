@@ -4,9 +4,15 @@
         "latitude": 8.366513,
         "longitude": 124.861640,
         "menu": [
+<<<<<<< HEAD
             { "name": "Pares Overlord 40pesos" },
             { "name": "Fried Fish 35pesos" },
             { "name": "Adobong Manok 50pesos" }
+=======
+            { "name": "Pares Overlord 100" },
+            { "name": "Fried Fish 150" },
+            { "name": "Adobong Manok 120." }
+>>>>>>> eb847536603eb76dc222a4eb5feb6abacea60468
         ]
     },
     {
@@ -14,9 +20,15 @@
         "latitude": 8.365993,
         "longitude": 124.864442,
         "menu": [
+<<<<<<< HEAD
             { "name": "Sinigang isda 35pesos" },
             { "name": "Pritong Manok 40pesos" },
             { "name": "kaldereta 60pesos" }
+=======
+            { "name": "Sinigang bangus 80" },
+            { "name": "Pritong Manok 90" },
+            { "name": "crispy pata 110" }
+>>>>>>> eb847536603eb76dc222a4eb5feb6abacea60468
         ]
     },
     {
@@ -24,6 +36,7 @@
         "latitude": 8.368211,
         "longitude": 124.860900,
         "menu": [
+<<<<<<< HEAD
             { "name": "tortang talong 20pesos" },
             { "name": "humba 40pesos" },
             { "name": "Fried Fish 35pesos" }
@@ -37,6 +50,11 @@
             { "name": "lumpia 15pesos" },
             { "name": "bicol express 40pesos" },
             { "name": "adobong atay 40pesos" }
+=======
+            { "name": "whole fried chiken250" },
+            { "name": " paper roni 200" },
+            { "name": "Burger 120" }
+>>>>>>> eb847536603eb76dc222a4eb5feb6abacea60468
         ]
     }
 ]
