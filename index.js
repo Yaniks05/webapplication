@@ -47,7 +47,7 @@ class LeafletMap {
                     this.addMarker(marker.latitude, marker.longitude, marker.name, marker.menu);
                 });
             })
-            .catch(error => console.error('Error loading markers:', error));
+            .catch(error => console.error('Error loading markers::', error));
     }
 }
 const myMap = new LeafletMap('map', [8.367031, 124.864154], 18);
